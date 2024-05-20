@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scrolling Carousel</title>
+    <style>
+        .carousel-container {
+            overflow-x: auto; /* Allow horizontal overflow */
+            overflow-y: hidden; /* Hide vertical overflow */
+            white-space: nowrap;
+            scrollbar-width: none; /* Hide scrollbar for aesthetic purposes */
+            -ms-overflow-style: none;
+             /* Hide scrollbar for IE/Edge */
+        }
+
+        .carousel-container::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+        }
+
+        .card {
+            display: inline-block;
+            width: 300px; /* Set the width of each card */
+            margin-right: 10px; /* Adjust margin between cards */
+            vertical-align: top; /* Align cards to the top to prevent any extra spacing */
+        }
+
+        .container {
+            padding: 20px; /* Add padding for aesthetic purposes */
+        }
+
+        .row {
+            margin: 0; /* Remove default margin of row */
+        }
+
+/* Style your carousel buttons as needed */
+        
+    </style>
+</head>
+<body>
+
+<div class="container" style="background-color: red;">
+    <div id="foodCarousel" class="carousel-container">
+        <div class="row">
+            <div class="card">
+                <!-- Card 1 content -->
+                <img src="milk.png" alt="Item 1" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 1sadfuashfdasgdasudfasvksDGasudfashdvksetjweyirddqfed   wsj</h1>
+                    <p>Description of item 1 sdfnsdhfgjaHFjsdgisFajgsfiwDGFHCAvfkhadlkSHDLJAGSFDSJHDFVCASND</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 2 content -->
+                <img src="milk.png" alt="Item 2" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 2</h1>
+                    <p>Description of item 2asdhgSDFGDSUGFOUWTIr9oehlqJKEpq9EYWFAKSNLkausidwetfgdsnmxasmheyhwuhfjdcsjhfgeuf</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 3 content -->
+                <img src="milk.png" alt="Item 3" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 3</h1>
+                    <p>Description of item 3fhdhgdfkjkhfjdERdfedieADFGitwRHFeidqEIYRDIQydgqJDYQoetTIRDFGa</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 4 content -->
+                <img src="milk.png" alt="Item 4" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 4vcvsvzxbdnghmjklgjfghsfdfs</h1>
+                    <p>Description of item 4vdfghdfhkgjlerhTWEIRYtifWRIUETWIRGWIEHFtrqURYEUIRTWFGDJHDWEUTIRWEUDFaDHTWEYFWE</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <!-- Add the other four cards below this line -->
+            <div class="card">
+                <!-- Card 5 content -->
+                <img src="milk.png" alt="Item 5" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 5asdjfa</h1>
+                    <p>Description of item 5aejhdfaisjdgasJDFkASGFKHADIaFSDagjsduoarfdaGDHFASUHFDIASFdiasfidasdfAiSHDFA</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 6 content -->
+                <img src="milk.png" alt="Item 6" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">Item 6ESgdAFDJqojgdigu</h1>
+                    <p>Description of item 6wqeTQOQpiyeiqUWGdgfjkasldtgasdfhakydjsdgasfdkjas</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 7 content -->
+                <img src="milk.png" alt="Item 7" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">efsdafsjhafsjhfsjadfhasdjhf</h1>
+                    <p>Description of item dsgfsdhgkjfgaskhfshkfAdfasidaisfDiasFDaiSFDuafsDfaIDFaDUafDiadfaiysdRadu</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+            <div class="card">
+                <!-- Card 8 content -->
+                <img src="milk.png" alt="Item 8" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h1 class="card-title">gjsdjc/h1>
+                    <p>Description of item 8bsdjgjshsdgaskjdskdhdgsdgsjhfgsjfdhasgfasdkfsgjfshfgskfgask</p>
+                    <p>Price: $X.XX</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-btn prev-btn">Prev</button>
+    <button class="carousel-btn next-btn">Next</button>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const carousel = document.querySelector('.carousel-container');
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+
+        prevBtn.addEventListener('click', function () {
+            carousel.scrollBy({
+                left: -350, // Adjust scroll amount based on card width
+                behavior: 'smooth'
+            });
+        });
+
+        nextBtn.addEventListener('click', function () {
+            carousel.scrollBy({
+                left: 350, // Adjust scroll amount based on card width
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
